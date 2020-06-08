@@ -12,7 +12,8 @@ name: OpenWrt-CI
 on:
   push:
     branches: 
-      - master
+      - masterrr
+  #更改监听的push分支为masterrr，停止action
   # schedule:
   #   - cron: 0 20 * * *
   # release:
